@@ -179,6 +179,7 @@ def quote_slide(bg, quote, handle, page, sky_bottom=None):
 
 def cover_slide(bg, kicker, title, subtitle, handle, sky_bottom=None):
     img, color, region = _prepare(bg, sky_bottom)
+    region = (region[0], region[1] - 40, region[2], region[3] - 90)  # leave room for the swipe hint
     d = ImageDraw.Draw(img)
     max_w = region[2] - region[0] - 20
     size = 104
