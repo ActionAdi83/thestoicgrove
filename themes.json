@@ -1,0 +1,182 @@
+{
+  "themes": {
+    "control": {
+      "titles": ["What You Can Control", "Let Go of What You Can't Control", "The Only Thing You Truly Own"],
+      "subtitle": "The oldest lesson in Stoicism",
+      "hooks": ["Most of your suffering comes from fighting what was never yours to control.", "Two lists: what is up to you, and what isn't. Everything changes once you know the difference."],
+      "hashtags": ["#dichotomyofcontrol", "#letgo"]
+    },
+    "discipline": {
+      "titles": ["The Quiet Power of Discipline", "Master Yourself First", "Discipline Over Mood"],
+      "subtitle": "Ancient words for the days motivation runs out",
+      "hooks": ["Motivation comes and goes. Discipline is what's left when it leaves.", "The ancients didn't wait to feel ready. They trained."],
+      "hashtags": ["#discipline", "#selfmastery"]
+    },
+    "adversity": {
+      "titles": ["The Obstacle Is the Teacher", "Strength Through Hardship", "When Life Gets Heavy"],
+      "subtitle": "What the ancients knew about hard times",
+      "hooks": ["Hard seasons don't break you. They reveal you.", "Every storm the ancients faced left them a sentence worth keeping."],
+      "hashtags": ["#resilience", "#hardtimes"]
+    },
+    "mortality": {
+      "titles": ["Memento Mori", "Remember You Will Die", "Live As If Today Counts"],
+      "subtitle": "Not a morbid thought. A clarifying one.",
+      "hooks": ["Remembering that life ends is the fastest way to start living it.", "The Stoics kept death close so they'd stop wasting life."],
+      "hashtags": ["#mementomori", "#livefully"]
+    },
+    "time": {
+      "titles": ["Life Is Long If You Use It", "On the Shortness of Life", "Your Time Is Your Life"],
+      "subtitle": "The one resource you can never earn back",
+      "hooks": ["We guard our money and give our time away to anyone who asks.", "Time isn't short. We just spend it carelessly."],
+      "hashtags": ["#timemanagement", "#presentmoment"]
+    },
+    "mind": {
+      "titles": ["Your Mind Is the Battlefield", "Guard Your Thoughts", "It's Not Events. It's Your Judgments."],
+      "subtitle": "Wisdom on perception and the inner life",
+      "hooks": ["Things aren't heavy. The stories we tell about them are.", "Change the way you see it, and you change what it does to you."],
+      "hashtags": ["#mindset", "#mentalstrength"]
+    },
+    "anger": {
+      "titles": ["The Cost of Anger", "Calm Is a Superpower", "Before You React, Read This"],
+      "subtitle": "Ancient advice for a quick temper",
+      "hooks": ["Anger always costs more than the thing that caused it.", "The calmest person in the room holds the power."],
+      "hashtags": ["#innerpeace", "#selfcontrol"]
+    },
+    "fear": {
+      "titles": ["We Suffer More in Imagination", "Fear Is a Liar", "On Anxiety and Worry"],
+      "subtitle": "For the mind that won't stop racing",
+      "hooks": ["Most of what you fear will never happen. The ancients knew it too.", "Worry is paying interest on a debt you may never owe."],
+      "hashtags": ["#anxietyrelief", "#overthinking"]
+    },
+    "simplicity": {
+      "titles": ["Want Less, Live More", "The Art of Enough", "Simplify"],
+      "subtitle": "Timeless wisdom on a simple life",
+      "hooks": ["The richest person is the one who needs the least.", "Every possession asks for a piece of your attention."],
+      "hashtags": ["#simpleliving", "#minimalism"]
+    },
+    "character": {
+      "titles": ["Be the Person, Don't Explain It", "Character Is Destiny", "Waste No More Time. Be Good."],
+      "subtitle": "On virtue, integrity and who you become",
+      "hooks": ["Your reputation is what people say. Your character is what you do when nobody is watching.", "The Stoics believed only one thing is truly good: your character."],
+      "hashtags": ["#integrity", "#virtue"]
+    },
+    "patience": {
+      "titles": ["The Quiet Strength of Patience", "Nothing Great Is Created Suddenly", "Slow Down"],
+      "subtitle": "Lessons from the slow work of nature",
+      "hooks": ["A forest isn't built in a season. Neither are you.", "Patience isn't waiting. It's how you behave while you wait."],
+      "hashtags": ["#patience", "#trusttheprocess"]
+    },
+    "solitude": {
+      "titles": ["The Gift of Solitude", "Retreat Into Yourself", "Alone, Not Lonely"],
+      "subtitle": "On stillness, silence and your own company",
+      "hooks": ["Being able to sit alone with your thoughts is a rare and underrated strength.", "The ancients went to the woods to hear themselves think."],
+      "hashtags": ["#solitude", "#stillness"]
+    },
+    "wisdom": {
+      "titles": ["Timeless Wisdom", "Words That Outlived Empires", "Ancient Minds, Modern Problems"],
+      "subtitle": "Thoughts that survived two thousand years",
+      "hooks": ["These words outlived the empires that produced them. There's a reason.", "Different centuries, same human struggles."],
+      "hashtags": ["#wisdom", "#ancientwisdom"]
+    },
+    "action": {
+      "titles": ["Stop Talking. Start Doing.", "Words Are Cheap", "Begin"],
+      "subtitle": "Philosophy is meant to be lived",
+      "hooks": ["The Stoics had little patience for philosophy that stayed on paper.", "Thinking about it won't do it. Start."],
+      "hashtags": ["#takeaction", "#nomoreexcuses"]
+    },
+    "nature": {
+      "titles": ["Live According to Nature", "Lessons From the Forest", "What the Trees Know"],
+      "subtitle": "Wisdom from the wild",
+      "hooks": ["The forest never hurries, and yet everything gets done.", "Nature was the first teacher of every philosopher."],
+      "hashtags": ["#naturelovers", "#forestwisdom"]
+    },
+    "kindness": {
+      "titles": ["Made for Each Other", "On Kindness and Others", "How to Treat People"],
+      "subtitle": "Stoicism was never meant to be cold",
+      "hooks": ["Tough on yourself, gentle with others. That's the Stoic way.", "We were made for cooperation, like hands, like feet."],
+      "hashtags": ["#kindness", "#compassion"]
+    },
+    "happiness": {
+      "titles": ["Happiness Is an Inside Job", "Very Little Is Needed", "Where Happiness Lives"],
+      "subtitle": "What the ancients knew about a good life",
+      "hooks": ["Happiness was never out there. The ancients said so two thousand years ago.", "Contentment isn't having more. It's needing less."],
+      "hashtags": ["#happiness", "#contentment"]
+    },
+    "change": {
+      "titles": ["Everything Flows", "Nothing Stays the Same", "Embrace Change"],
+      "subtitle": "On impermanence and letting go",
+      "hooks": ["You can't step into the same river twice. You're not the same person either.", "Change isn't happening to you. It's what life is made of."],
+      "hashtags": ["#impermanence", "#letitgo"]
+    },
+    "courage": {
+      "titles": ["Courage Is a Choice", "Be Brave Anyway", "The Man in the Arena"],
+      "subtitle": "Words for the moment before the leap",
+      "hooks": ["Courage isn't the absence of fear. It's deciding fear doesn't get a vote.", "Every meaningful thing lives on the other side of discomfort."],
+      "hashtags": ["#courage", "#bebrave"]
+    },
+    "self": {
+      "titles": ["Know Thyself", "Trust Yourself", "Become Who You Are"],
+      "subtitle": "On self-knowledge and self-reliance",
+      "hooks": ["You will spend your whole life with yourself. Get to know that person.", "Stop looking outside for what can only be found within."],
+      "hashtags": ["#selfawareness", "#selfgrowth"]
+    },
+    "learning": {
+      "titles": ["Never Stop Learning", "Keep Learning How to Live", "The Student's Mindset"],
+      "subtitle": "The ancients never considered themselves finished",
+      "hooks": ["The wisest people in history all called themselves students.", "You can't learn what you think you already know."],
+      "hashtags": ["#lifelonglearning", "#growthmindset"]
+    },
+    "gratitude": {
+      "titles": ["Enough Is a Feast", "Gratitude", "Want What You Have"],
+      "subtitle": "The quiet habit of the wise",
+      "hooks": ["One day you'll miss what you're rushing through right now.", "The wise rejoice in what they have, not grieve what they lack."],
+      "hashtags": ["#gratitude", "#grateful"]
+    }
+  },
+  "authors": {
+    "Marcus Aurelius": {"subtitle": "Roman emperor, Stoic philosopher", "hashtag": "#marcusaurelius"},
+    "Seneca": {"subtitle": "Roman statesman, Stoic philosopher", "hashtag": "#seneca"},
+    "Epictetus": {"subtitle": "Born a slave, became a Stoic teacher", "hashtag": "#epictetus"},
+    "Lao Tzu": {"subtitle": "Author of the Tao Te Ching", "hashtag": "#laotzu"},
+    "Confucius": {"subtitle": "Chinese philosopher and teacher", "hashtag": "#confucius"},
+    "Buddha": {"subtitle": "From the Dhammapada", "hashtag": "#dhammapada"},
+    "Henry David Thoreau": {"subtitle": "Wrote Walden in a cabin in the woods", "hashtag": "#thoreau"},
+    "Ralph Waldo Emerson": {"subtitle": "American essayist and philosopher", "hashtag": "#emerson"},
+    "John Muir": {"subtitle": "Naturalist, father of the national parks", "hashtag": "#johnmuir"},
+    "Friedrich Nietzsche": {"subtitle": "German philosopher", "hashtag": "#nietzsche"},
+    "Michel de Montaigne": {"subtitle": "French essayist and philosopher", "hashtag": "#montaigne"},
+    "Publilius Syrus": {"subtitle": "Former slave, master of Latin maxims", "hashtag": "#ancientwisdom"},
+    "Cicero": {"subtitle": "Roman statesman and philosopher", "hashtag": "#cicero"},
+    "Miyamoto Musashi": {"subtitle": "Undefeated swordsman, author of The Book of Five Rings", "hashtag": "#musashi"},
+    "Bruce Lee": {"subtitle": "Martial artist and philosopher", "hashtag": "#brucelee"},
+    "Heraclitus": {"subtitle": "Greek philosopher of change", "hashtag": "#heraclitus"},
+    "Arthur Schopenhauer": {"subtitle": "German philosopher", "hashtag": "#schopenhauer"},
+    "Johann Wolfgang von Goethe": {"subtitle": "German poet and thinker", "hashtag": "#goethe"},
+    "Leo Tolstoy": {"subtitle": "Russian novelist and moralist", "hashtag": "#tolstoy"},
+    "Albert Camus": {"subtitle": "French-Algerian philosopher and novelist", "hashtag": "#camus"},
+    "La Rochefoucauld": {"subtitle": "French author of Maxims", "hashtag": "#maxims"},
+    "Plutarch": {"subtitle": "Greek biographer and essayist", "hashtag": "#plutarch"},
+    "Aristotle": {"subtitle": "Greek philosopher", "hashtag": "#aristotle"},
+    "Horace": {"subtitle": "Roman poet", "hashtag": "#carpediem"},
+    "Baltasar Gracián": {"subtitle": "Author of The Art of Worldly Wisdom", "hashtag": "#worldlywisdom"},
+    "Søren Kierkegaard": {"subtitle": "Danish philosopher", "hashtag": "#kierkegaard"},
+    "Carl Jung": {"subtitle": "Swiss psychiatrist", "hashtag": "#carljung"},
+    "Fyodor Dostoevsky": {"subtitle": "Russian novelist", "hashtag": "#dostoevsky"},
+    "Benjamin Franklin": {"subtitle": "American polymath", "hashtag": "#benjaminfranklin"},
+    "Theodore Roosevelt": {"subtitle": "26th U.S. President", "hashtag": "#theodoreroosevelt"}
+  },
+  "author_titles": ["{author}", "The Wisdom of {author}", "Lessons From {author}"],
+  "author_hooks": [
+    "Some writers you read once. {author} you return to.",
+    "{n} sentences from {author} worth carrying with you.",
+    "If you only read one thinker this year, make it {author}."
+  ],
+  "base_hashtags": ["#stoicism"],
+  "rotating_hashtags": ["#philosophy", "#stoic", "#dailywisdom", "#stoicquotes", "#wisdom", "#selfimprovement", "#mindset", "#ancientwisdom"],
+  "cta_questions": [
+    "Which one stayed with you?",
+    "Which quote do you need today?",
+    "Which one would you send to a friend?",
+    "Which line hit the hardest?"
+  ]
+}

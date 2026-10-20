@@ -1,0 +1,11 @@
+{
+  "handle": "@thestoicgrove",
+  "quotes_per_post": 8,
+  "quote_cooldown_days": 120,
+  "recent_posts_without_repeat": 10,
+  "author_carousel_share": 0.35,
+  "stoic_core": ["Marcus Aurelius", "Seneca", "Epictetus"],
+  "min_stoic_per_theme_post": 3,
+  "max_per_author_in_theme_post": 2,
+  "api_version": "v24.0"
+}

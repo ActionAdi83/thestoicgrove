@@ -1,0 +1,5 @@
+# text | author | source | tags
+Happiness is a good flow of life. | Zeno of Citium | Quoted by Stobaeus | happiness
+The end is life in agreement with nature. | Zeno of Citium |  | nature,wisdom
+We have two ears and one mouth, so we should listen more than we say. | Zeno of Citium | Diogenes Laërtius, Lives, VII.23 | wisdom,learning
+A bad feeling is a commotion of the mind repugnant to reason, and against nature. | Zeno of Citium | Cicero, Tusculan Disputations, IV.6 | mind

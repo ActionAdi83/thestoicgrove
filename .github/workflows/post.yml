@@ -1,0 +1,74 @@
+name: Post carousel
+
+on:
+  schedule:
+    # times are UTC; chosen for a US + Europe English-speaking audience
+    - cron: "0 13 * * *"    # 9:00 New York / 16:00 Bucharest (summer time)
+    - cron: "30 17 * * *"   # 13:30 New York
+    - cron: "0 23 * * *"    # 19:00 New York
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only build the slides, don't publish"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Build carousel
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python -m src.main build --out out
+
+      - name: Upload slides to the media branch (public URLs for Instagram)
+        working-directory: out
+        run: |
+          git init -q
+          git checkout -q -b media
+          git add *.jpg
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -qm "media $(date -u +%F-%H%M)"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" media
+          echo "MEDIA_URL=https://raw.githubusercontent.com/${{ github.repository }}/$(git rev-parse HEAD)/" >> "$GITHUB_ENV"
+          rm -rf .git
+
+      - name: Publish to Instagram
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          sleep 10  # give raw.githubusercontent.com a moment
+          python -m src.main publish --post out/post.json --base-url "$MEDIA_URL" ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Save history
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/history.json
+          git commit -qm "posted: $(python -c "import json;print(json.load(open('out/post.json'))['title'])")" || exit 0
+          git pull -q --rebase && git push -q
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: slides
+          path: out/
+          retention-days: 7
